@@ -1,0 +1,27 @@
+.user-inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background: linear-gradient(#00cdac, #02aabd);
+  color: white;
+
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 16px #999;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.user-inner-container:hover {
+  transform: scale(1.2);
+}
+
+.user-image {
+  border-radius: 50%;
+  border: 0.5rem solid white;
+  width: 100px;
+
+  box-shadow: 4px 4px 8px #777;
+}
